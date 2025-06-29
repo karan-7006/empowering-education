@@ -1,6 +1,7 @@
 import React from 'react';
 import Header from '../Common/Header';
 import Footer from '../Common/Footer';
+import { NavLink } from 'react-router-dom';
 
 const Marketplace = () => {
   const gradientTextStyle = {
@@ -69,7 +70,7 @@ const Marketplace = () => {
                   e.currentTarget.style.boxShadow = '0 2px 4px rgba(0,0,0,0.1)';
                 }}
               >
-                <div className="card-body p-4">
+                <div className="card-body p-4 bg-info-subtle">
                   <div style={iconStyle}>
                     <svg 
                       fill="none" 
@@ -89,7 +90,7 @@ const Marketplace = () => {
                   <p className="card-text text-muted mb-4">
                     Purchase affordable books and stationery from your campus community.
                   </p>
-                  <button className="btn btn-primary">Browse Items</button>
+                  <NavLink to="/BooksPurchase" className="btn btn-primary">Browse Items</NavLink>
                 </div>
               </div>
             </div>
@@ -108,7 +109,7 @@ const Marketplace = () => {
                   e.currentTarget.style.boxShadow = '0 2px 4px rgba(0,0,0,0.1)';
                 }}
               >
-                <div className="card-body p-4">
+                <div className="card-body p-4 bg-info-subtle">
                   <div style={iconStyle}>
                     <svg 
                       fill="none" 
@@ -128,7 +129,7 @@ const Marketplace = () => {
                   <p className="card-text text-muted mb-4">
                     List your used books and stationery to earn money and help fellow students.
                   </p>
-                  <button className="btn btn-success">List Items</button>
+                  <NavLink className="btn btn-success" to="/BookSelling">List Items</NavLink>
                 </div>
               </div>
             </div>
@@ -147,7 +148,7 @@ const Marketplace = () => {
                   e.currentTarget.style.boxShadow = '0 2px 4px rgba(0,0,0,0.1)';
                 }}
               >
-                <div className="card-body p-4">
+                <div className="card-body p-4 bg-info-subtle">
                   <div style={iconStyle}>
                     <svg 
                       fill="none" 
@@ -167,9 +168,7 @@ const Marketplace = () => {
                   <p className="card-text text-muted mb-4">
                     Rent books and stationery for a limited amount of time at affordable rates.
                   </p>
-                  <button className="btn" style={{backgroundColor: '#6f42c1', color: 'white'}}>
-                    Find Rentals
-                  </button>
+                  <NavLink className="btn" style={{backgroundColor: '#6f42c1', color: 'white'}} to="/BookDonation">Find Rentals</NavLink>
                 </div>
               </div>
             </div>
@@ -188,7 +187,7 @@ const Marketplace = () => {
                   e.currentTarget.style.boxShadow = '0 2px 4px rgba(0,0,0,0.1)';
                 }}
               >
-                <div className="card-body p-4">
+                <div className="card-body p-4 bg-info-subtle">
                   <div style={iconStyle}>
                     <svg 
                       fill="none" 
@@ -208,7 +207,7 @@ const Marketplace = () => {
                   <p className="card-text text-muted mb-4">
                     Help students in need by donating books and stationery to the community.
                   </p>
-                  <button className="btn btn-danger">Donate Now</button>
+                  <NavLink className="btn btn-danger" to="/BookDonation">Donate Now</NavLink>
                 </div>
               </div>
             </div>

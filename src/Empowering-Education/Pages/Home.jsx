@@ -63,7 +63,7 @@ function Home() {
                             alt="..."
                         />
                         <div className="carousel-caption d-none d-md-block">
-                            <h5>🚀 Empowering Education (E²): Learn. Share. Grow.</h5>
+                            <h5 className='bg-light text-primary fw-bold' style={{width: "550px", padding: "10px", marginLeft: "300px"}}>🚀 Empowering Education (E²): Learn. Share. Grow.</h5>
                             <p>
                                 A student-driven platform built to uplift learners through shared resources, collaborative tools, and a powerful learning community.
                                 📚 Discover knowledge, 💡 spark ideas, and 🎓 shape your future — together.
@@ -78,7 +78,7 @@ function Home() {
                             alt="..."
                         />
                         <div className="carousel-caption d-none d-md-block">
-                            <h5>🎓 Learn Beyond Limits with E²</h5>
+                            <h5 className='bg-light text-primary fw-bold' style={{width: "350px", padding: "10px", marginLeft: "350px"}}>🎓 Learn Beyond Limits with E²</h5>
                             <p>
                                 Empowering minds with free resources, peer support, and a community that believes in collective growth.
                                 Together, we rise — one lesson, one student, one dream at a time. 🌱✨
@@ -93,7 +93,7 @@ function Home() {
                             alt="..."
                         />
                         <div className="carousel-caption d-none d-md-block">
-                            <h5>Your Learning. Your Power.</h5>
+                            <h5 className='bg-light text-primary fw-bold' style={{width: "400px", padding: "10px", marginLeft: "350px"}}>Your Learning. Your Power.</h5>
                             <p>
                                 Break barriers and unlock your potential with Empowering Education (E²).
                                 From notes to mentorship — everything you need to thrive is just a click away. 🔓💡

@@ -1,6 +1,7 @@
 import React, { useState } from 'react'
 import Header from '../Common/Header'
 import Footer from '../Common/Footer'
+import NavHeader from '../Common/NavHeader';
 
 function ContactUs() {
     const [formData, setFormData] = useState({
@@ -37,30 +38,14 @@ function ContactUs() {
         <div>
             <Header />
 
-            {/* Hero Section */}
-            <div className="mt-1 mb-1">
-                <div className="d-flex align-items-center justify-content-center bg-light shadow-sm p-4 gap-4">
-                    <div className="display-1" role="img" aria-label="Contact Icon">
-                        📞
-                    </div>
-                    <div className="text-center">
-                        <h1 className="display-3 fw-bold text-primary mb-1">
-                            Contact<span className="text-dark">-Us</span>
-                        </h1>
-                        <p className="lead fw-bold text-primary mb-0">
-                            Get in <span className="text-dark fw-semibold">Touch</span>{" "}
-                            <span className="text-dark fw-semibold">Today</span>
-                        </p>
-                    </div>
-                </div>
-            </div>
+            <NavHeader title="Contact" subtitle="-Us" />
 
             <div className="container-fluid bg-light min-vh-100 py-5">
                 <div className="container">
                     {/* Contact Form Section */}
                     <div className="row g-5 mb-5">
                         <div className="col-lg-8">
-                            <div className="card border-0 shadow-sm bg-white">
+                            <div className="card bg-dark-subtle border-0 shadow-sm bg-white">
                                 <div className="card-body p-5">
                                     <div className="text-center mb-4">
                                         <h2 className="fw-bold text-dark mb-3">Send Us a Message</h2>
@@ -122,7 +107,7 @@ function ContactUs() {
                                                 ></textarea>
                                             </div>
                                             <div className="col-12 text-center">
-                                                <button type="submit" className="btn btn-primary btn-lg px-5 py-3">
+                                                <button type="submit" className="btn btn-primary btn-lg px-5 py-3 mt-4">
                                                     <svg width="20" height="20" fill="currentColor" className="me-2" viewBox="0 0 24 24">
                                                         <path d="M2.01 21L23 12 2.01 3 2 10l15 2-15 2z" />
                                                     </svg>
@@ -137,7 +122,7 @@ function ContactUs() {
 
                         {/* Contact Information */}
                         <div className="col-lg-4">
-                            <div className="card h-100 border-0 shadow-sm bg-white">
+                            <div className="card bg-dark-subtle h-100 border-0 shadow-sm bg-white">
                                 <div className="card-body p-4">
                                     <h3 className="fw-bold text-dark mb-4">Get in Touch</h3>
 

@@ -1,29 +1,14 @@
 import React from 'react'
 import Header from '../Common/Header'
 import Footer from '../Common/Footer'
+import NavHeader from '../Common/NavHeader'
 
 function AboutUs() {
     return (
         <div>
             <Header />
 
-            {/* Hero Section */}
-            <div className="mt-1 mb-1">
-                <div className="d-flex align-items-center justify-content-center bg-light shadow-sm p-4 gap-4">
-                    <div className="display-1" role="img" aria-label="About Icon">
-                        🎓
-                    </div>
-                    <div className="text-center">
-                        <h1 className="display-3 fw-bold text-primary mb-1">
-                            About<span className="text-dark">-Us</span>
-                        </h1>
-                        <p className="lead fw-bold text-primary mb-0">
-                            Our <span className="text-dark fw-semibold">Story</span>{" "}
-                            <span className="text-dark fw-semibold">& Mission</span>
-                        </p>
-                    </div>
-                </div>
-            </div>
+            <NavHeader title="About" subtitle="-Us" />
 
             <div className="container-fluid bg-light min-vh-100 py-5">
                 <div className="container">
@@ -31,7 +16,7 @@ function AboutUs() {
                     <div className="row justify-content-center mb-5">
                         <div className="col-lg-10">
                             <div className="card border-0 shadow-sm bg-white">
-                                <div className="card-body p-5 text-center">
+                                <div className="card-body p-5 bg-dark-subtle text-center">
                                     <div className="mb-4">
                                         <div className="d-inline-flex align-items-center justify-content-center bg-primary bg-opacity-10 rounded-circle p-3">
                                             <svg width="48" height="48" fill="#0d6efd" viewBox="0 0 24 24">
@@ -80,7 +65,7 @@ function AboutUs() {
                         <div className="row g-4">
                             <div className="col-lg-6">
                                 <div className="card h-100 border-0 shadow-sm bg-white">
-                                    <div className="card-body p-4">
+                                    <div className="card-body bg-dark-subtle p-4">
                                         <div className="d-flex align-items-center mb-3">
                                             <div className="bg-primary bg-opacity-10 rounded p-3 me-3">
                                                 <svg width="32" height="32" fill="#0d6efd" viewBox="0 0 24 24">
@@ -179,7 +164,7 @@ function AboutUs() {
 
                             <div className="col-lg-6">
                                 <div className="card h-100 border-0 shadow-sm bg-white">
-                                    <div className="card-body p-4">
+                                    <div className="card-body bg-dark-subtle p-4">
                                         <div className="d-flex align-items-center mb-3">
                                             <div className="bg-secondary bg-opacity-10 rounded p-3 me-3">
                                                 <svg width="32" height="32" fill="#6c757d" viewBox="0 0 24 24">
@@ -237,7 +222,7 @@ function AboutUs() {
                             </div>
 
                             <div className="col-lg-4 col-md-6">
-                                <div className="card h-100 border-0 shadow-sm bg-white text-center">
+                                <div className="card bg-dark-subtle h-100 border-0 shadow-sm bg-white text-center">
                                     <div className="card-body p-4">
                                         <div className="bg-success bg-opacity-10 rounded-circle p-3 d-inline-flex mb-3">
                                             <svg width="32" height="32" fill="#198754" viewBox="0 0 24 24">
@@ -269,7 +254,7 @@ function AboutUs() {
                             </div>
 
                             <div className="col-lg-4 col-md-6">
-                                <div className="card h-100 border-0 shadow-sm bg-white text-center">
+                                <div className="card bg-dark-subtle h-100 border-0 shadow-sm bg-white text-center">
                                     <div className="card-body p-4">
                                         <div className="bg-warning bg-opacity-10 rounded-circle p-3 d-inline-flex mb-3">
                                             <svg width="32" height="32" fill="#ffc107" viewBox="0 0 24 24">
@@ -301,7 +286,7 @@ function AboutUs() {
                             </div>
 
                             <div className="col-lg-4 col-md-6">
-                                <div className="card h-100 border-0 shadow-sm bg-white text-center">
+                                <div className="card bg-dark-subtle h-100 border-0 shadow-sm bg-white text-center">
                                     <div className="card-body p-4">
                                         <div className="bg-secondary bg-opacity-10 rounded-circle p-3 d-inline-flex mb-3">
                                             <svg width="32" height="32" fill="#6c757d" viewBox="0 0 24 24">
