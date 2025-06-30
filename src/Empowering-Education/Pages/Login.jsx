@@ -1,24 +1,83 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import { NavLink, useNavigate } from 'react-router-dom';
 import NavHeader from '../Common/NavHeader';
 import Footer from '../Common/Footer';
+import { toast } from 'react-toastify';
+import axios from 'axios';
 
 export default function Login() {
-    const navigate = useNavigate();
 
-    const handleLogin = (e) => {
+    useEffect(() => {
+        if (localStorage.getItem("userId")) {
+            redirect("/")
+        }
+    }, [])
+
+    const [form, setform] = useState({
+        email: "",
+        password: ""
+    })
+
+    const redirect = useNavigate();
+
+    const getchange = (e) => {
+        setform({
+            ...form,
+            [e.target.name]: e.target.value
+        })
+        console.log(form)
+    }
+
+    const submit = async (e) => {
         e.preventDefault();
 
-        // Example: grab values (you can later add validation or API calls)
-        const username = e.target.username.value;
-        const password = e.target.password.value;
+        try {
+            
+            const { email, password } = form 
 
-        // For now, simulate login
-        console.log('Logging in:', { username, password });
+            if (email === ""  || password === "") {
+                console.log("Please Fill required details")
+                toast.error("Please Fill required details")
+                return false
+            }
 
-        // Redirect to home page
-        navigate('/HomePage');
-    };
+            // Email Match 
+            const res = await axios.get(`http://localhost:3000/user?email=${email}`)
+            console.log(res.data)
+            if (res.data.length === 0) {
+                console.log("Email Does not Match")
+                toast.error("Email Does not Match")
+                return false
+            }
+
+            let user = res.data[0]
+
+            // Status Check
+            if (user.status === "block") {
+                console.log("Your Account has been Blocked")
+                toast.error("Your Account has been Blocked")
+                return false
+            }
+
+            // Password Match
+            if (user.password !== password) {
+                console.log("Password Does not Match")
+                toast.error("Password Does not Match")
+                return false
+            }
+
+            localStorage.setItem("userId", user.id)
+            localStorage.setItem("username", user.name)
+            redirect("/")
+            console.log("Login Successfull")
+            toast.success("Login Successfull")
+
+
+        } catch (error) {
+            
+        }
+
+    }
 
     return (
         <div>
@@ -37,17 +96,19 @@ export default function Login() {
                         <u>Login</u>
                     </h2>
 
-                    <form onSubmit={handleLogin}>
+                    <form onSubmit={submit}>
                         <div className="mb-3">
-                            <label htmlFor="username" className="form-label fw-semibold">
-                                Username
+                            <label htmlFor="email" className="form-label fw-semibold">
+                                Email
                             </label>
                             <input
-                                type="text"
-                                id="username"
-                                name="username"
+                                type="email"
+                                id="email"
+                                name="email"
+                                value={form.email}
+                                onChange={getchange}
                                 className="form-control"
-                                placeholder="Enter your username"
+                                placeholder="Enter your Email"
                                 required
                             />
                         </div>
@@ -60,6 +121,8 @@ export default function Login() {
                                 type="password"
                                 id="password"
                                 name="password"
+                                value={form.password}
+                                onChange={getchange}
                                 className="form-control"
                                 placeholder="Enter your password"
                                 required

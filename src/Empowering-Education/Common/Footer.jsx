@@ -39,7 +39,7 @@ function Footer() {
                     <div className="col-md-4 col-lg-4 col-xl-3 mx-auto mt-3">
                         <h6 className="text-uppercase text-muted fw-semibold mb-4">Contact</h6>
                         <p className="text-muted"><i className="bi bi-envelope me-2 text-primary" /> support@empoweringeducation.com</p>
-                        <p className="text-muted"><i className="bi bi-telephone me-2 text-success" /> +1 (555) 123-4567</p>
+                        <p className="text-muted"><i className="bi bi-telephone me-2 text-success" /> +91 7265065054</p>
                     </div>
                 </div>
                 {/* Divider */}
@@ -47,7 +47,7 @@ function Footer() {
                 {/* Footer Bottom */}
                 <div className="row align-items-center text-center">
                     <div className="col-md-12">
-                        <p className="text-muted mb-0">© 2024 <strong>Empowering Education (E²)</strong>. All rights reserved.</p>
+                        <p className="text-muted mb-0">© 2025 <strong>Empowering Education (E²)</strong>. All rights reserved.</p>
                         <p className="text-muted small mt-1">Developed with ❤️ by Students, For Students</p>
                     </div>
                 </div>

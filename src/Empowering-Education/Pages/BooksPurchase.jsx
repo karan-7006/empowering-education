@@ -88,6 +88,20 @@ export default function BooksPurchase() {
             category: 'science',
             image: 'https://m.media-amazon.com/images/I/811-dZecSIL._AC_UY327_FMwebp_QL65_.jpg',
         },
+        {
+            title: 'Mechanical Engineering',
+            price: '₹125',
+            condition: 'Good Condition',
+            category: 'engineering',
+            image: 'https://m.media-amazon.com/images/I/51cPI8rdKuL._AC_UY327_FMwebp_QL65_.jpg',
+        },
+        {
+            title: 'Data Engineering',
+            price: '₹75',
+            condition: 'Good Condition',
+            category: 'engineering',
+            image: 'https://m.media-amazon.com/images/I/71yQPL3zr3L._AC_UY327_FMwebp_QL65_.jpg',
+        }
         // Add more if needed...
     ];
 

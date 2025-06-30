@@ -1,7 +1,24 @@
-import React from 'react'
-import { NavLink } from 'react-router-dom'
+import React, { useEffect } from 'react'
+import { NavLink, useNavigate } from 'react-router-dom'
+import { toast } from 'react-toastify'
 
 function Header() {
+
+    const redirect = useNavigate()
+
+    useEffect(()=> {
+        if(!localStorage.getItem("userId")) {
+            redirect("/Login")
+        }
+    })
+
+    const logout = ()=> {
+        localStorage.removeItem("userId")
+        localStorage.removeItem("username")
+        redirect("/Login")
+        toast.success("Logout SuccessFully")
+    }
+
     return (
         <div>
             <nav className="navbar navbar-expand-lg shadow-sm bg-white border-bottom sticky-top">
@@ -22,17 +39,47 @@ function Header() {
                                 <NavLink className="nav-link text-dark fw-semibold" to="/ContactUs">ContactUs</NavLink>
                             </li>
                             <li className="nav-item">
-                                <NavLink className="nav-link text-dark fw-semibold" to="/Login">Login</NavLink>
+                                <NavLink className="nav-link text-dark fw-semibold" to="/Blog">Blogs</NavLink>
                             </li>
+                            
                         </ul>
+
+                        {
+                        (()=> {
+                            if (localStorage.getItem("userId")) {
+                                return (
+                                    <NavLink className="nav-item nav-link fw-semibold text-primary" to="/UserEdit">Hello- {localStorage.getItem("username")}</NavLink>
+                                )
+                            }
+                        })()
+                    }
+                    {
+                        (()=> {
+                            if (localStorage.getItem("userId")) {
+                                return (
+                                    <NavLink onClick={logout} className="nav-item nav-link ms-3 me-3 fw-semibold" to="#">User-Logout</NavLink>
+                                )
+                            }
+
+                            else{
+                                return(
+                                    <NavLink to="/Login">User-Login</NavLink>
+                                )
+                            }
+
+                        })()
+                    }
+
                         <form className="d-flex" role="search">
                             <input className="form-control me-2 rounded-pill border-primary" type="search" placeholder="Search topics..." aria-label="Search" />
                             <button className="btn btn-primary rounded-pill px-4" type="submit">Search</button>
                         </form>
                     </div>
+
+                    
+
                 </div>
             </nav>
-
         </div>
     )
 }

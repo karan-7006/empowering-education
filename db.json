@@ -1,0 +1,47 @@
+{
+  "user": [
+    {
+      "id": "1",
+      "name": "Karan",
+      "email": "karan@gmail.com",
+      "password": "karan123",
+      "status": "unblock"
+    },
+    {
+      "id": "2",
+      "name": "saurabh",
+      "email": "saurabh@gmail.com",
+      "password": "saurabh123",
+      "status": "unblock"
+    },
+    {
+      "id": "3",
+      "name": "mahendra",
+      "email": "mahendra@gmail.com",
+      "password": "Ansh123",
+      "status": "unblock"
+    },
+    {
+      "id": "4",
+      "name": "mahesh",
+      "email": "mahesh@gmail.com",
+      "password": "mahesh123",
+      "status": "block"
+    },
+    {
+      "id": "1751278919564",
+      "name": "Aniket",
+      "email": "Aniket@gmail.com",
+      "password": "Aniket123",
+      "status": "unblock"
+    }
+  ],
+  "Admin": [
+    {
+      "id": "1",
+      "name": "karan",
+      "email": "karan@gmail.com",
+      "password": "karan123"
+    }
+  ]
+}

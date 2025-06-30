@@ -10,6 +10,9 @@ import Register from "./Empowering-Education/Pages/Register"
 import BookSelling from "./Empowering-Education/Pages/BookSelling"
 import BooksRenting from "./Empowering-Education/Pages/BooksRenting"
 import BooksPurchase from "./Empowering-Education/Pages/BooksPurchase"
+import Blog from "./Empowering-Education/Pages/Blog"
+import UserEdit from "./Empowering-Education/Pages/UserEdit"
+import NotFound from "./Empowering-Education/Pages/NotFound"
 
 function App() {
 
@@ -19,6 +22,7 @@ function App() {
 
         <Routes>
           <Route path="/" element={<Home />} />
+          <Route path="/Blog" element={<Blog />} />
           <Route path="/AboutUs" element={<AboutUs />} />
           <Route path="/ContactUs" element={<ContactUs />} />
           <Route path="/MarketPlace" element={<Marketplace />} />
@@ -28,6 +32,8 @@ function App() {
           <Route path="/BooksPurchase" element={<BooksPurchase />} />
           <Route path="/Login" element={<Login />} />
           <Route path="/Register" element={<Register />} />
+          <Route path="/UserEdit" element={<UserEdit />} />
+          <Route path="*" element={<NotFound />} />
         </Routes>
 
       </div>

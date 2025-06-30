@@ -63,7 +63,7 @@ function Home() {
                             alt="..."
                         />
                         <div className="carousel-caption d-none d-md-block">
-                            <h5 className='bg-light text-primary fw-bold' style={{width: "550px", padding: "10px", marginLeft: "300px"}}>🚀 Empowering Education (E²): Learn. Share. Grow.</h5>
+                            <h5 className='bg-light text-primary fw-bold' style={{width: "550px", padding: "10px", marginLeft: "300px", borderRadius:"18px"}}>🚀 Empowering Education (E²): Learn. Share. Grow.</h5>
                             <p>
                                 A student-driven platform built to uplift learners through shared resources, collaborative tools, and a powerful learning community.
                                 📚 Discover knowledge, 💡 spark ideas, and 🎓 shape your future — together.
@@ -78,7 +78,7 @@ function Home() {
                             alt="..."
                         />
                         <div className="carousel-caption d-none d-md-block">
-                            <h5 className='bg-light text-primary fw-bold' style={{width: "350px", padding: "10px", marginLeft: "350px"}}>🎓 Learn Beyond Limits with E²</h5>
+                            <h5 className='bg-light text-primary fw-bold' style={{width: "350px", padding: "10px", marginLeft: "350px", borderRadius:"18px"}}>🎓 Learn Beyond Limits with E²</h5>
                             <p>
                                 Empowering minds with free resources, peer support, and a community that believes in collective growth.
                                 Together, we rise — one lesson, one student, one dream at a time. 🌱✨
@@ -93,7 +93,7 @@ function Home() {
                             alt="..."
                         />
                         <div className="carousel-caption d-none d-md-block">
-                            <h5 className='bg-light text-primary fw-bold' style={{width: "400px", padding: "10px", marginLeft: "350px"}}>Your Learning. Your Power.</h5>
+                            <h5 className='bg-light text-primary fw-bold' style={{width: "400px", padding: "10px", marginLeft: "350px", borderRadius:"18px"}}>Your Learning. Your Power.</h5>
                             <p>
                                 Break barriers and unlock your potential with Empowering Education (E²).
                                 From notes to mentorship — everything you need to thrive is just a click away. 🔓💡
@@ -137,7 +137,7 @@ function Home() {
 
                     <div className="row g-4">
                         <div className="col-lg-4 col-md-6">
-                            <div className="card h-100 border-0 shadow-sm bg-white">
+                            <div className="card bg-info-subtle h-100 border-0 shadow-sm bg-white">
                                 <div className="card-body text-center p-4">
                                     <div className="d-flex justify-content-center mb-3">
                                         <div className="bg-primary bg-opacity-10 rounded p-3">
@@ -155,7 +155,7 @@ function Home() {
                         </div>
 
                         <div className="col-lg-4 col-md-6">
-                            <div className="card h-100 border-0 shadow-sm bg-white">
+                            <div className="card bg-danger-subtle h-100 border-0 shadow-sm bg-white">
                                 <div className="card-body text-center p-4">
                                     <div className="d-flex justify-content-center mb-3">
                                         <div className="bg-success bg-opacity-10 rounded p-3">
@@ -173,7 +173,7 @@ function Home() {
                         </div>
 
                         <div className="col-lg-4 col-md-6">
-                            <div className="card h-100 border-0 shadow-sm bg-white">
+                            <div className="card bg-info-subtle h-100 border-0 shadow-sm bg-white">
                                 <div className="card-body text-center p-4">
                                     <div className="d-flex justify-content-center mb-3">
                                         <div className="bg-secondary bg-opacity-10 rounded p-3">
@@ -202,7 +202,7 @@ function Home() {
 
                     <div className="row g-4">
                         <div className="col-lg-3 col-md-6">
-                            <div className="card h-100 border-0 shadow-sm bg-white">
+                            <div className="card bg-info-subtle h-100 border-0 shadow-sm bg-white">
                                 <div className="card-body text-center p-4">
                                     <div className="d-flex justify-content-center mb-3">
                                         <div className="bg-primary bg-opacity-10 rounded-circle p-3">
@@ -220,7 +220,7 @@ function Home() {
                         </div>
 
                         <div className="col-lg-3 col-md-6">
-                            <div className="card h-100 border-0 shadow-sm bg-white">
+                            <div className="card bg-danger-subtle h-100 border-0 shadow-sm bg-white">
                                 <div className="card-body text-center p-4">
                                     <div className="d-flex justify-content-center mb-3">
                                         <div className="bg-success bg-opacity-10 rounded-circle p-3">
@@ -238,7 +238,7 @@ function Home() {
                         </div>
 
                         <div className="col-lg-3 col-md-6">
-                            <div className="card h-100 border-0 shadow-sm bg-white">
+                            <div className="card bg-danger-subtle h-100 border-0 shadow-sm bg-white">
                                 <div className="card-body text-center p-4">
                                     <div className="d-flex justify-content-center mb-3">
                                         <div className="bg-info bg-opacity-10 rounded-circle p-3">
@@ -256,7 +256,7 @@ function Home() {
                         </div>
 
                         <div className="col-lg-3 col-md-6">
-                            <div className="card h-100 border-0 shadow-sm bg-white">
+                            <div className="card bg-info-subtle h-100 border-0 shadow-sm bg-white">
                                 <div className="card-body text-center p-4">
                                     <div className="d-flex justify-content-center mb-3">
                                         <div className="bg-danger bg-opacity-10 rounded-circle p-3">
@@ -284,7 +284,7 @@ function Home() {
 
                     <div className="row g-4">
                         <div className="col-lg-4 col-md-6">
-                            <div className="card h-100 border-0 shadow-sm bg-white">
+                            <div className="card bg-info-subtle h-100 border-0 shadow-sm bg-white">
                                 <div className="card-body p-4">
                                     <div className="d-flex align-items-center mb-3">
                                         <div className="bg-primary bg-opacity-10 rounded p-2 me-3">
@@ -305,7 +305,7 @@ function Home() {
                         </div>
 
                         <div className="col-lg-4 col-md-6">
-                            <div className="card h-100 border-0 shadow-sm bg-white">
+                            <div className="card bg-danger-subtle h-100 border-0 shadow-sm bg-white">
                                 <div className="card-body p-4">
                                     <div className="d-flex align-items-center mb-3">
                                         <div className="bg-success bg-opacity-10 rounded p-2 me-3">
@@ -326,7 +326,7 @@ function Home() {
                         </div>
 
                         <div className="col-lg-4 col-md-6">
-                            <div className="card h-100 border-0 shadow-sm bg-white">
+                            <div className="card bg-info-subtle h-100 border-0 shadow-sm bg-white">
                                 <div className="card-body p-4">
                                     <div className="d-flex align-items-center mb-3">
                                         <div className="bg-secondary bg-opacity-10 rounded p-2 me-3">

@@ -109,7 +109,7 @@ const Marketplace = () => {
                   e.currentTarget.style.boxShadow = '0 2px 4px rgba(0,0,0,0.1)';
                 }}
               >
-                <div className="card-body p-4 bg-info-subtle">
+                <div className="card-body p-4 bg-danger-subtle">
                   <div style={iconStyle}>
                     <svg 
                       fill="none" 
@@ -168,7 +168,7 @@ const Marketplace = () => {
                   <p className="card-text text-muted mb-4">
                     Rent books and stationery for a limited amount of time at affordable rates.
                   </p>
-                  <NavLink className="btn" style={{backgroundColor: '#6f42c1', color: 'white'}} to="/BookDonation">Find Rentals</NavLink>
+                  <NavLink className="btn" style={{backgroundColor: '#6f42c1', color: 'white'}} to="/BooksRenting">Find Rentals</NavLink>
                 </div>
               </div>
             </div>
@@ -187,7 +187,7 @@ const Marketplace = () => {
                   e.currentTarget.style.boxShadow = '0 2px 4px rgba(0,0,0,0.1)';
                 }}
               >
-                <div className="card-body p-4 bg-info-subtle">
+                <div className="card-body p-4 bg-danger-subtle">
                   <div style={iconStyle}>
                     <svg 
                       fill="none" 
@@ -225,7 +225,7 @@ const Marketplace = () => {
           
           <div className="row g-4">
             <div className="col-lg-4 col-md-6">
-              <div className="card text-center h-100 border-0 shadow-sm">
+              <div className="card bg-primary-subtle text-center h-100 border-0 shadow-sm">
                 <div className="card-body p-4">
                   <div className="mb-3">
                     <span 
@@ -244,7 +244,7 @@ const Marketplace = () => {
             </div>
             
             <div className="col-lg-4 col-md-6">
-              <div className="card text-center h-100 border-0 shadow-sm">
+              <div className="card bg-danger-subtle text-center h-100 border-0 shadow-sm">
                 <div className="card-body p-4">
                   <div className="mb-3">
                     <span 
@@ -263,7 +263,7 @@ const Marketplace = () => {
             </div>
             
             <div className="col-lg-4 col-md-6">
-              <div className="card text-center h-100 border-0 shadow-sm">
+              <div className="card bg-primary-subtle text-center h-100 border-0 shadow-sm">
                 <div className="card-body p-4">
                   <div className="mb-3">
                     <span 

@@ -16,7 +16,7 @@ function AboutUs() {
                     <div className="row justify-content-center mb-5">
                         <div className="col-lg-10">
                             <div className="card border-0 shadow-sm bg-white">
-                                <div className="card-body p-5 bg-dark-subtle text-center">
+                                <div className="card-body p-5 bg-primary-subtle text-center">
                                     <div className="mb-4">
                                         <div className="d-inline-flex align-items-center justify-content-center bg-primary bg-opacity-10 rounded-circle p-3">
                                             <svg width="48" height="48" fill="#0d6efd" viewBox="0 0 24 24">
@@ -65,7 +65,7 @@ function AboutUs() {
                         <div className="row g-4">
                             <div className="col-lg-6">
                                 <div className="card h-100 border-0 shadow-sm bg-white">
-                                    <div className="card-body bg-dark-subtle p-4">
+                                    <div className="card-body bg-primary-subtle p-4">
                                         <div className="d-flex align-items-center mb-3">
                                             <div className="bg-primary bg-opacity-10 rounded p-3 me-3">
                                                 <svg width="32" height="32" fill="#0d6efd" viewBox="0 0 24 24">
@@ -98,7 +98,7 @@ function AboutUs() {
 
                             <div className="col-lg-6">
                                 <div className="card h-100 border-0 shadow-sm bg-white">
-                                    <div className="card-body p-4">
+                                    <div className="card-body bg-danger-subtle p-4">
                                         <div className="d-flex align-items-center mb-3">
                                             <div className="bg-success bg-opacity-10 rounded p-3 me-3">
                                                 <svg width="32" height="32" fill="#198754" viewBox="0 0 24 24">
@@ -131,7 +131,7 @@ function AboutUs() {
 
                             <div className="col-lg-6">
                                 <div className="card h-100 border-0 shadow-sm bg-white">
-                                    <div className="card-body p-4">
+                                    <div className="card-body bg-danger-subtle p-4">
                                         <div className="d-flex align-items-center mb-3">
                                             <div className="bg-info bg-opacity-10 rounded p-3 me-3">
                                                 <svg width="32" height="32" fill="#0dcaf0" viewBox="0 0 24 24">
@@ -164,7 +164,7 @@ function AboutUs() {
 
                             <div className="col-lg-6">
                                 <div className="card h-100 border-0 shadow-sm bg-white">
-                                    <div className="card-body bg-dark-subtle p-4">
+                                    <div className="card-body bg-primary-subtle p-4">
                                         <div className="d-flex align-items-center mb-3">
                                             <div className="bg-secondary bg-opacity-10 rounded p-3 me-3">
                                                 <svg width="32" height="32" fill="#6c757d" viewBox="0 0 24 24">
@@ -206,7 +206,7 @@ function AboutUs() {
 
                         <div className="row g-4">
                             <div className="col-lg-4 col-md-6">
-                                <div className="card h-100 border-0 shadow-sm bg-white text-center">
+                                <div className="card bg-danger-subtle h-100 border-0 shadow-sm bg-white text-center">
                                     <div className="card-body p-4">
                                         <div className="bg-primary bg-opacity-10 rounded-circle p-3 d-inline-flex mb-3">
                                             <svg width="32" height="32" fill="#0d6efd" viewBox="0 0 24 24">
@@ -222,7 +222,7 @@ function AboutUs() {
                             </div>
 
                             <div className="col-lg-4 col-md-6">
-                                <div className="card bg-dark-subtle h-100 border-0 shadow-sm bg-white text-center">
+                                <div className="card bg-primary-subtle h-100 border-0 shadow-sm bg-white text-center">
                                     <div className="card-body p-4">
                                         <div className="bg-success bg-opacity-10 rounded-circle p-3 d-inline-flex mb-3">
                                             <svg width="32" height="32" fill="#198754" viewBox="0 0 24 24">
@@ -238,7 +238,7 @@ function AboutUs() {
                             </div>
 
                             <div className="col-lg-4 col-md-6">
-                                <div className="card h-100 border-0 shadow-sm bg-white text-center">
+                                <div className="card bg-danger-subtle h-100 border-0 shadow-sm bg-white text-center">
                                     <div className="card-body p-4">
                                         <div className="bg-info bg-opacity-10 rounded-circle p-3 d-inline-flex mb-3">
                                             <svg width="32" height="32" fill="#0dcaf0" viewBox="0 0 24 24">
@@ -254,7 +254,7 @@ function AboutUs() {
                             </div>
 
                             <div className="col-lg-4 col-md-6">
-                                <div className="card bg-dark-subtle h-100 border-0 shadow-sm bg-white text-center">
+                                <div className="card bg-primary-subtle h-100 border-0 shadow-sm bg-white text-center">
                                     <div className="card-body p-4">
                                         <div className="bg-warning bg-opacity-10 rounded-circle p-3 d-inline-flex mb-3">
                                             <svg width="32" height="32" fill="#ffc107" viewBox="0 0 24 24">
@@ -270,7 +270,7 @@ function AboutUs() {
                             </div>
 
                             <div className="col-lg-4 col-md-6">
-                                <div className="card h-100 border-0 shadow-sm bg-white text-center">
+                                <div className="card bg-danger-subtle h-100 border-0 shadow-sm bg-white text-center">
                                     <div className="card-body p-4">
                                         <div className="bg-danger bg-opacity-10 rounded-circle p-3 d-inline-flex mb-3">
                                             <svg width="32" height="32" fill="#dc3545" viewBox="0 0 24 24">
@@ -286,7 +286,7 @@ function AboutUs() {
                             </div>
 
                             <div className="col-lg-4 col-md-6">
-                                <div className="card bg-dark-subtle h-100 border-0 shadow-sm bg-white text-center">
+                                <div className="card bg-primary-subtle h-100 border-0 shadow-sm bg-white text-center">
                                     <div className="card-body p-4">
                                         <div className="bg-secondary bg-opacity-10 rounded-circle p-3 d-inline-flex mb-3">
                                             <svg width="32" height="32" fill="#6c757d" viewBox="0 0 24 24">
@@ -356,7 +356,7 @@ function AboutUs() {
                     {/* Call to Action */}
                     <div className="row justify-content-center">
                         <div className="col-lg-8">
-                            <div className="card border-0 shadow-sm bg-white text-center">
+                            <div className="card border-0 shadow-sm bg-danger-subtle text-center">
                                 <div className="card-body p-5">
                                     <h3 className="fw-bold text-dark mb-3">Ready to Join Our Community?</h3>
                                     <p className="text-muted mb-4">

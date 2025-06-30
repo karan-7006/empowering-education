@@ -45,7 +45,7 @@ function ContactUs() {
                     {/* Contact Form Section */}
                     <div className="row g-5 mb-5">
                         <div className="col-lg-8">
-                            <div className="card bg-dark-subtle border-0 shadow-sm bg-white">
+                            <div className="card bg-primary-subtle border-0 shadow-sm bg-white">
                                 <div className="card-body p-5">
                                     <div className="text-center mb-4">
                                         <h2 className="fw-bold text-dark mb-3">Send Us a Message</h2>
@@ -122,7 +122,7 @@ function ContactUs() {
 
                         {/* Contact Information */}
                         <div className="col-lg-4">
-                            <div className="card bg-dark-subtle h-100 border-0 shadow-sm bg-white">
+                            <div className="card bg-danger-subtle h-100 border-0 shadow-sm bg-white">
                                 <div className="card-body p-4">
                                     <h3 className="fw-bold text-dark mb-4">Get in Touch</h3>
 
@@ -216,7 +216,7 @@ function ContactUs() {
 
                         <div className="row g-4">
                             <div className="col-lg-6">
-                                <div className="card h-100 border-0 shadow-sm bg-white">
+                                <div className="card bg-primary-subtle h-100 border-0 shadow-sm bg-white">
                                     <div className="card-body p-4">
                                         <h5 className="fw-bold mb-3 text-primary">How do I list my resources?</h5>
                                         <p className="text-muted small">
@@ -227,7 +227,7 @@ function ContactUs() {
                             </div>
 
                             <div className="col-lg-6">
-                                <div className="card h-100 border-0 shadow-sm bg-white">
+                                <div className="card bg-danger-subtle h-100 border-0 shadow-sm bg-white">
                                     <div className="card-body p-4">
                                         <h5 className="fw-bold mb-3 text-success">Is the platform free to use?</h5>
                                         <p className="text-muted small">
@@ -238,7 +238,7 @@ function ContactUs() {
                             </div>
 
                             <div className="col-lg-6">
-                                <div className="card h-100 border-0 shadow-sm bg-white">
+                                <div className="card bg-danger-subtle h-100 border-0 shadow-sm bg-white">
                                     <div className="card-body p-4">
                                         <h5 className="fw-bold mb-3 text-info">How do I contact other students?</h5>
                                         <p className="text-muted small">
@@ -249,7 +249,7 @@ function ContactUs() {
                             </div>
 
                             <div className="col-lg-6">
-                                <div className="card h-100 border-0 shadow-sm bg-white">
+                                <div className="card bg-primary-subtle h-100 border-0 shadow-sm bg-white">
                                     <div className="card-body p-4">
                                         <h5 className="fw-bold mb-3 text-secondary">What if I have technical issues?</h5>
                                         <p className="text-muted small">

@@ -45,7 +45,7 @@ export default function BooksRenting() {
       <NavHeader title="Books Renting" />
 
       <div className="flex-grow-1 d-flex align-items-center justify-content-center py-5">
-        <div className="card shadow-lg p-4" style={{ maxWidth: '600px', width: '100%' }}>
+        <div className="card shadow-lg p-4 bg-primary-subtle" style={{ maxWidth: '600px', width: '100%'}}>
           <div className="text-center mb-4">
             <svg
               className="mb-3"
@@ -67,7 +67,7 @@ export default function BooksRenting() {
             </p>
           </div>
 
-          <div className="alert alert-light border-start border-4 border-primary">
+          <div className="alert alert-light border-start border-4 border-primary bg-primary-subtle">
             <strong>Feature Highlights:</strong>
             <ul className="mt-2 mb-0">
               <li>Affordable book rentals</li>
