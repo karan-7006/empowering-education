@@ -1,4 +1,5 @@
 import React from 'react'
+import { NavLink } from 'react-router-dom'
 
 function Footer() {
     return (
@@ -22,18 +23,18 @@ function Footer() {
                     {/* Quick Links */}
                     <div className="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
                         <h6 className="text-uppercase text-muted fw-semibold mb-4">Quick Links</h6>
-                        <p><a href="aboutus.html" className="text-muted text-decoration-none">About Us</a></p>
-                        <p><a href="Contact.html" className="text-muted text-decoration-none">Contact</a></p>
+                        <p><NavLink to="/AboutUs" className="text-muted text-decoration-none">About Us</NavLink></p>
+                        <p><NavLink to="/ContactUs" className="text-muted text-decoration-none">Contact</NavLink></p>
                         <p><a href="#" className="text-muted text-decoration-none">Privacy Policy</a></p>
                         <p><a href="#" className="text-muted text-decoration-none">Terms of Service</a></p>
                     </div>
                     {/* Resources */}
                     <div className="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
                         <h6 className="text-uppercase text-muted fw-semibold mb-4">Resources</h6>
-                        <p><a href="#" className="text-muted text-decoration-none">Academic Calendar</a></p>
-                        <p><a href="#" className="text-muted text-decoration-none">Campus Events</a></p>
-                        <p><a href="#" className="text-muted text-decoration-none">Internship Opportunities</a></p>
-                        <p><a href="#" className="text-muted text-decoration-none">Student Handbook</a></p>
+                        <p><NavLink to="/Blog" className="text-muted text-decoration-none">Academic Calendar</NavLink></p>
+                        <p><NavLink to="/Blog" className="text-muted text-decoration-none">Campus Events</NavLink></p>
+                        <p><NavLink to="/Blog" className="text-muted text-decoration-none">Internship Opportunities</NavLink></p>
+                        <p><NavLink to="#" className="text-muted text-decoration-none">Student Handbook</NavLink></p>
                     </div>
                     {/* Contact */}
                     <div className="col-md-4 col-lg-4 col-xl-3 mx-auto mt-3">

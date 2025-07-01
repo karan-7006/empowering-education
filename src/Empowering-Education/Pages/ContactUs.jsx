@@ -135,7 +135,7 @@ function ContactUs() {
                                             </div>
                                             <div>
                                                 <h6 className="fw-bold mb-1">Address</h6>
-                                                <p className="text-muted small mb-0">123 Campus Drive<br />University City, State 12345</p>
+                                                <p className="text-muted small mb-0">SNME Campus<br />Ahmedabad City, State 382330</p>
                                             </div>
                                         </div>
                                     </div>
@@ -149,7 +149,7 @@ function ContactUs() {
                                             </div>
                                             <div>
                                                 <h6 className="fw-bold mb-1">Phone</h6>
-                                                <p className="text-muted small mb-0">+1 (555) 123-4567</p>
+                                                <p className="text-muted small mb-0">+91 7265065054</p>
                                             </div>
                                         </div>
                                     </div>
